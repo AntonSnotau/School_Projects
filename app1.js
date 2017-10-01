@@ -1,5 +1,5 @@
-console.log('hi');
-//4//
+document.addEventListener("DOMContentLoaded", function(){
+
 function Furry(x, y, direction) {
   this.x = 0;
   this.y = 0;
@@ -91,8 +91,8 @@ function Game() {
     }, 250);
   };
 };
-console.log(Game);
 var game = new Game();
 game.showFurry();
 game.showCoin();
 game.startGame();
+});
